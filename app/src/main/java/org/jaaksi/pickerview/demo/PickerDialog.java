@@ -3,7 +3,7 @@ package org.jaaksi.pickerview.demo;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
+import androidx.annotation.CallSuper;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,7 +1,7 @@
 package org.jaaksi.pickerview.picker;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import java.util.List;
 import org.jaaksi.pickerview.dataset.OptionDataSet;
 import org.jaaksi.pickerview.dialog.IPickerDialog;

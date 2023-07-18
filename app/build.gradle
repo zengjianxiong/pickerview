@@ -10,7 +10,7 @@ android {
     targetSdkVersion 28
     versionCode 2
     versionName "1.0.1"
-    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
   }
   buildTypes {
     release {
@@ -28,9 +28,9 @@ android {
 
 dependencies {
   implementation fileTree(include: ['*.jar'], dir: 'libs')
-  implementation 'com.android.support:appcompat-v7:28.0.0'
-//  implementation project(':pickerview')
-  implementation 'com.android.support:support-v4:28.0.0'
-  implementation 'org.jaaksi:pickerview:3.0.2'
+  implementation 'androidx.appcompat:appcompat:1.0.0'
+  implementation project(':pickerview')
+  implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+//  implementation 'org.jaaksi:pickerview:3.0.2'
   implementation 'com.google.code.gson:gson:2.8.5'
 }

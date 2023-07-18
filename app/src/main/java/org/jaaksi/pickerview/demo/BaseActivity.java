@@ -3,8 +3,8 @@ package org.jaaksi.pickerview.demo;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Created by fuchaoyang on 2018/2/10.<br/>
