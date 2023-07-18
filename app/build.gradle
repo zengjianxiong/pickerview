@@ -29,8 +29,8 @@ android {
 dependencies {
   implementation fileTree(include: ['*.jar'], dir: 'libs')
   implementation 'androidx.appcompat:appcompat:1.0.0'
-  implementation project(':pickerview')
+//  implementation project(':pickerview')
   implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-//  implementation 'org.jaaksi:pickerview:3.0.2'
+  implementation 'org.jaaksi:pickerview:3.0.2'
   implementation 'com.google.code.gson:gson:2.8.5'
 }
